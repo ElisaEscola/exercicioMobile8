@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.container {
+    text-align: center;
+}
+
+#display {
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.botoes button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    transition: 0.3s;
+}
+
+.botoes button:hover {
+    background: #555;
+}
+
+#voltas {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#voltas li {
+    background: #222;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
